@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "399242686008",
+    "firebase_url": "https://aprendiendo-lsm.firebaseio.com",
+    "project_id": "aprendiendo-lsm",
+    "storage_bucket": "aprendiendo-lsm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399242686008:android:0087d976b7c805b11000cd",
+        "android_client_info": {
+          "package_name": "com.example.aprendiendolsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399242686008-5odmmhks6hdmotvg6enoiu2bakilcma7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5NKhmKSwZq56gFqGRiDlIoyNGAqYe0DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399242686008-5odmmhks6hdmotvg6enoiu2bakilcma7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

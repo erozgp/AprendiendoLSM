@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_numeros"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/layoutNumeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/UnoADiez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 al 10">
+
+
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Decenas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decenas">
+
+
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Cientos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cientos">
+
+
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Ordinales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ordinales">
+
+
+
+        </com.google.android.material.tabs.TabItem>
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ViewPagerNumeros"></androidx.viewpager.widget.ViewPager>
+</LinearLayout>

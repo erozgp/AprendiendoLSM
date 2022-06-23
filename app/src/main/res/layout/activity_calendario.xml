@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_calendario">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/layoutCalendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/DiasSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Días de la semans">
+
+
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Meses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meses">
+
+
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Estaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estaciones">
+
+
+
+        </com.google.android.material.tabs.TabItem>
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ViewPagerCalendario"></androidx.viewpager.widget.ViewPager>
+</LinearLayout>
